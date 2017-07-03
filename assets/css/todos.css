@@ -20,6 +20,7 @@ ul {
 }
 
 li {
+  padding: 0 20px 0 20px;
   background: #fff;
   height: 40px;
   line-height: 40px;
@@ -29,9 +30,25 @@ li {
 input {
   color: #0f9d58;
   outline-color: #0f9d58;
+  font-size: 18px;
   width: 100%;
   padding: 13px 13px 13px 20px;
   box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+span {
+  float: right;
+  color: #0f9d58;
+  text-align: center;
+  display: inline-block;
+  transition: 0.2s linear;
+}
+
+span:hover {
+  color: #fff;
+  width: 40px;
+  background: #0f9d58;
 }
 
 #container {
