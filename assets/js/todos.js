@@ -19,3 +19,8 @@ $('input[type="text"]').keypress(function(event) {
     $('ul').append('<li>' + newTodo + ' <span><i class="fa fa-check" aria-hidden="true"></i></span></li>');
   }
 });
+
+// Toggle input feature
+$('.fa-pencil').on('click', function() {
+  $('input[type="text"]').fadeToggle();
+})
